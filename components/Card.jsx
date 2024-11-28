@@ -1,4 +1,5 @@
 import placeholder from "../src/assets/img/placeholder.png";
+import Button from "../components/Button/Button";
 export default function Card() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Card() {
           <button className="text-light bg-warning border-0 py-3 px-4">
             LEGGI DI PIÚ
           </button>
+          <Button />
         </div>
       </div>
     </>
