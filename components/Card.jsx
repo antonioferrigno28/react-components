@@ -3,7 +3,7 @@ import Button from "../components/Button/Button";
 export default function Card() {
   return (
     <>
-      <div className="card w-75 mx-auto">
+      <div className="card w-75 mx-auto shadow-lg">
         <div>
           <img
             className="card-img-top img-fluid"
